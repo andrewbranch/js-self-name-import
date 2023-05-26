@@ -1,0 +1,13 @@
+{
+  "name": "js-self-name-import",
+  "type": "module",
+  "exports": {
+    "./*": {
+      "types": "./types/src/*",
+      "default": "./src/*"
+    }
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
